@@ -14,7 +14,7 @@ namespace Business.Constant
         public static string Deleted = "Silindi.";
         public static string InvalidName = "Araç ismi ekleme hatası.";
         public static string Listed = "Listelendi.";
-        public static string MaintenanceTime = "Bakım zamanı";
-        
+        public static string MaintenanceTime = "Bakım zamanı!";
+        public static string InvalidReturn = "Araç teslim edilmemiş.";
     }
 }
