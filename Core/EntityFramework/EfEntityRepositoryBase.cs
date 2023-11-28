@@ -45,9 +45,10 @@ namespace Core.EntityFramework
         {
             using (TContext context = new TContext())
             {
-                return filter == null
+                var result = filter == null
                     ? context.Set<TEntity>().ToList()
                     : context.Set<TEntity>().Where(filter).ToList();
+                return result;
             }
         }
 
